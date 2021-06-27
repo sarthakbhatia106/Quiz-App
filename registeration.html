@@ -13,7 +13,7 @@
 <body>
     <div class="main-container">
         <div class="heading">
-            <h1>Welcome to the Javascript Quiz</h1>
+            <h1></h1>
         </div>
 
         <div class="register-area">
@@ -44,6 +44,12 @@
         </div>
     </div>
     <script>
+        let title;
+        $.getJSON('questions.json', function (data) {
+            title = data[2][0]["Title"];
+            console.log(data[2][0]["Title"]);
+            document.querySelector('.heading h1').innerText=`Welcome to the ${title} Quiz`;
+        })
         let inputs = document.querySelectorAll(".form__input");
         let form = document.querySelector(".form");
         let resetBtn = document.querySelector(".register-reset");
