@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registeration.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Quiz App</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="heading">
+            <h1>Welcome to the Javascript Quiz</h1>
+        </div>
+
+        <div class="register-area">
+
+            <div class="header">
+                <div class="register-heading">Enter Your Credentials</div>
+            </div>
+            <div class="register">
+                <form class="form">
+                    <div class="form__group">
+                        <input type="text" placeholder="Name" class="form__input" value="" />
+                    </div>
+
+                    <div class="form__group">
+                        <input type="email" placeholder="Email" class="form__input" value="" />
+                    </div>
+
+                    <div class="form__group">
+                        <input type="text" placeholder="Roll-No" class="form__input" value="" />
+                    </div>
+                    <button class="register-reset">Reset</button>
+                </form>
+            </div>
+            <div class="footer">
+                <button class="register-submit">Submit</button>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        let inputs = document.querySelectorAll(".form__input");
+        let form = document.querySelector(".form");
+        let resetBtn = document.querySelector(".register-reset");
+        form.reset();
+
+        let submit = document.querySelector(".register-submit");
+        submit.addEventListener('click', function (e) {
+            let check = true;
+            for (let i = 0; i < inputs.length; i++) {
+                if (inputs[i].value == "") {
+                    check = false;
+                }
+            }
+            if (check == false) {
+                alert("All Credentials should be filled");
+                form.reset();
+            } else {
+                location.assign("index.html");
+            }
+        });
+        resetBtn.addEventListener('click', function (e) {
+            form.reset();
+        })
+    </script>
+</body>
+
+</html>

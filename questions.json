@@ -1,0 +1,167 @@
+ [
+     [
+        {
+            "Question": "Inside which HTML element do we put the JavaScript?",
+            "Option1": "script",
+            "Option2": "javascript",
+            "Option3": "scripting",
+            "Option4": "js",
+            "Answer": "Option1"
+        },
+        {
+            "Question": "Where is the correct place to insert a JavaScript?",
+            "Option1": " Both the head section and the body section are correct",
+            "Option2": " The body section",
+            "Option3": " The head section",
+            "Option4": " The Title section",
+            "Answer": "Option4"
+        },
+        {
+            "Question": "How do you write \"Hello World\" in an alert box?",
+            "Option1": " alert(\"Hello World\");",
+            "Option2": " msgBox(\"Hello World\");",
+            "Option3": " msg(\"Hello World\");",
+            "Option4": " alertBox(\"Hello World\");",
+            "Answer": "Option1"
+        },
+        {
+            "Question": "How do you create a function in JavaScript?",
+            "Option1": " function:myFunction()",
+            "Option2": " function = myFunction()",
+            "Option3": " function myFunction()",
+            "Option4": "function => myFunction()",
+            "Answer": "Option3"
+        },
+        {
+            "Question": "How do you call a function named \"myFunction\"?",
+            "Option1": " call myFunction()",
+            "Option2": " call function myFunction()",
+            "Option3": " myFunction()",
+            "Option4": "myFunction() call",
+            "Answer": "Option3"
+        },
+        {
+            "Question": "How to write an IF statement in JavaScript?",
+            "Option1": " if i = 5 then",
+            "Option2": " if (i == 5)",
+            "Option3": " if i = 5",
+            "Option4": " if i == 5 then",
+            "Answer": "Option2"
+        },
+        {
+            "Question": "How to write an IF statement for executing some code if \"i\" is NOT equal to 5?",
+            "Option1": " if i <> 5",
+            "Option2": " if i =! 5 then",
+            "Option3": " if (i <> 5)",
+            "Option4": " if (i != 5)",
+            "Answer": "Option4"
+        },
+        {
+            "Question": "How does a WHILE loop start?",
+            "Option1": " while i = 1 to 10",
+            "Option2": " while (i <= 10; i++)",
+            "Option3": " while (i <= 10)",
+            "Option4": "do{ }while(i<10);",
+            "Answer": "Option3"
+        },
+        {
+            "Question": "How does a FOR loop start?",
+            "Option1": " for (i <= 5; i++)",
+            "Option2": " for (i = 0; i <= 5)",
+            "Option3": " for i = 1 to 5",
+            "Option4": " for (i = 0; i <= 5; i++)",
+            "Answer": "Option4"
+        },
+        {
+            "Question": "Which of the following is not a reserved word in JavaScript?",
+            "Option1": " interface",
+            "Option2": " throws",
+            "Option3": " program",
+            "Option4": " short",
+            "Answer": "Option3"
+        },
+        {
+            "Question": "What is the correct way to write a JavaScript array?",
+            "Option1": " var colors = (1:\"red\", 2:\"green\", 3:\"blue\")",
+            "Option2": " var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")",
+            "Option3": " var colors = \"red\", \"green\", \"blue\"",
+            "Option4": " var colors = [\"red\", \"green\", \"blue\"]",
+            "Answer": "Option4"
+        },
+        {
+            "Question": "How do you round the number 7.25, to the nearest integer?",
+            "Option1": " rnd(7.25)",
+            "Option2": " round(7.25)",
+            "Option3": " Math.rnd(7.25)",
+            "Option4": " Math.round(7.25)",
+            "Answer": "Option4"
+        },
+        {
+            "Question": "How do you find the number with the highest value of x and y?",
+            "Option1": " ceil(x,y)",
+            "Option2": " Math.ceil(x,y)",
+            "Option3": " top(x, y)",
+            "Option4": " Math.max(x, y)",
+            "Answer": "Option4"
+        },
+        {
+            "Question": "JavaScript is the same as Java.",
+            "Option1": "True",
+            "Option2": "False",
+            "Option3": "Don't Know",
+            "Option4": "In some cases",
+            "Answer": "Option2"
+        },
+        {
+            "Question": "How can you detect the client's browser name?",
+            "Option1": " browser.name",
+            "Option2": " navigator.appName",
+            "Option3": " client.navName",
+            "Option4": " client.browser.name",
+            "Answer": "Option2"
+        },
+        {
+            "Question": "Which event occurs when the user clicks on an HTML element?",
+            "Option1": " onmouseclick",
+            "Option2": " onchange",
+            "Option3": " onclick",
+            "Option4": " onmouseover",
+            "Answer": "Option3"
+        },
+        {
+            "Question": "How do you declare a JavaScript variable?",
+            "Option1": " variable carName;",
+            "Option2": " v carName;",
+            "Option3": " var carName;",
+            "Option4": " String carName",
+            "Answer": "Option3"
+        },
+        {
+            "Question": "Which operator is used to assign a value to a variable?",
+            "Option1": " x",
+            "Option2": " *",
+            "Option3": " -",
+            "Option4": " =",
+            "Answer": "Option4"
+        },
+        {
+            "Question": "What will the following code return: Boolean(10 > 9)",
+            "Option1": " False",
+            "Option2": " True",
+            "Option3": " NaN",
+            "Option4": " Undefined",
+            "Answer": "Option2"
+        },
+        {
+            "Question": "Is JavaScript case-sensitive?",
+            "Option1": " Yes",
+            "Option2": " No",
+            "Option3": " Maybe",
+            "Option4": " No Idea",
+            "Answer": "Option1"
+        }
+    ],
+    [
+        {"Time limit": 600}
+    ]
+]
